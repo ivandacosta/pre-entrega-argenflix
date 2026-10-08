@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0B1420;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+
+}
+
+.header-izq {
+    display: flex;
+    gap: 10px;
+    width: 70%;
+}
+
+.logoprincipal {
+    display: flex;
+    width: auto;
+}
+.logo{
+    width: 12em
+}
+
+.navbar_izq {
+    display: flex;
+    gap: 15px;
+    width: 70%;
+    padding: 10px;
+    list-style: none;
+}
+
+.navbar_izq li a{
+    font-size: 1em;
+}
+
+.navbar_izq a {
+    color: #F5F7FA;
+    font-size: 14px;
+}
+
+
+
+.navbar_der {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.header-der{
+    padding: 5px;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 0 0 15px
+}
+
+.perfil{
+    width: 25px;
+}
+
+body{
+    background-color: #0B1420;
+}
+
+.destacados{
+    display: flex;
+    margin: 20px 50px;
+    padding: 20px 30px;
+    color: white;
+    background-color: #142A45;
+    border-radius: 15px;
+    
+}
+
+.contenedor-t{
+    width: 10px;
+}
+
+#t-personalizado{
+    color: #50C2F7;
+    background-color: #1D4160;
+    border: none;
+    border-radius: 25px;
+    padding: 9px 20px;
+    font-size: 13px;
+}
+
+#reproducir{
+    background-color: #FFB300;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+#milista{
+    background-color: #273B54 ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+}
+
+.recomendaciones{
+    margin: auto;
+}
+
+.recomendaciones p{
+    padding: 10px 0px;
+    color: #9AA5B1;
+}
+
+.imagen_destacados img{
+    padding: 30px;
+    width: 80%;
+}
