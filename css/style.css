@@ -75,7 +75,7 @@ body{
 
 .destacados{
     display: flex;
-    margin: 20px 50px;
+    margin: 20px 30px;
     padding: 20px 30px;
     color: white;
     background-color: #142A45;
@@ -123,4 +123,66 @@ body{
 .imagen_destacados img{
     padding: 30px;
     width: 80%;
+}
+
+.principal{
+    margin: 50px 30px;
+}
+
+.buscador {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.principal .buscador a{
+
+    background-color: #19222D;
+    color: #9AA5B1;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+#seleccionado{
+    background-color: #50C2F7;
+    color: #052C53;
+
+}
+
+.grid-peliculas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    
+}
+
+.grid-peliculas img{
+    width: 80%;
+}
+
+.continuar_viendo{
+    margin: 0px 30px;
+    padding: 20px 0px;
+    width: 70%;
+    color: white;
+}
+
+.linea_de_progreso{
+    width: 100px;
+}
+
+.grid-nacionales{
+    gap: 6px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.grid-nacionales img{
+    width: 90%;
+}
+.nacionales p{
+    margin: 5px 0px;
+}
+#subtexto{
+    font-size: 11px;
+    color: #687385
 }
