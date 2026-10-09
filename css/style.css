@@ -6,6 +6,10 @@
 a{
     text-decoration: none;
 }
+
+#headermobile{
+    display: none;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -75,8 +79,6 @@ body{
 
 .destacados{
     display: flex;
-
-    margin: 20px 30px;
     padding: 20px 30px;
     color: white;
     background-color: #142A45;
@@ -127,7 +129,7 @@ body{
 }
 
 .principal{
-    margin: 50px 30px;
+    padding: 20px 0;
 }
 
 .buscador {
@@ -162,7 +164,6 @@ body{
 }
 
 .continuar_viendo{
-    margin: 0px 30px;
     padding: 20px 0px;
     width: 70%;
     color: white;
@@ -187,35 +188,50 @@ body{
     font-size: 11px;
     color: #687385
 }
+
+main{
+    margin: 20px 30px;
+}
+
 @media (max-width:755px){
     .logo{width: 150px;}
     .navbar_izq{font-size: 14px;}
-    .destacados{margin: 10px 20px; padding: 10px 20px;}
+    .destacados{padding: 10px 20px;}
     .buscador{gap: 10px;}
     .buscador a{font-size: 11px;}
     .continuar_viendo h2{font-size: 1.4em;}
     .recomendaciones h2{font-size: 1.2em;}
     .recomendaciones p{font-size: 13px;}
-    #reproducir{padding: 10px 20px;}
+    #reproducir{padding: 10px 20px}
     #milista{padding: 10px 20px;}
     .grid-peliculas p{font-size: 13px;}
     .grid-nacionales{font-size: 13px;}
 }
 
 @media (max-width:652px){
-    .logo{width: 150px;}
     .navbar_izq{font-size: 11px;}
-    .destacados{margin: 10px 10px; padding: 10px 5px;}
+    .destacados{padding: 10px 10px; width: 70%;}
     .buscador{gap: 6px;}
     .principal .buscador a{ font-size: 10px;}
-    .continuar_viendo h2{font-size: 1.4em;}
+    .continuar_viendo h2{font-size: 1em;}
     .recomendaciones h2{font-size: 1em;}
     .recomendaciones p{font-size: 9px;}
-    .recomendaciones{margin: 10px;}
-    #t-personalizado{padding: 5px 10px; font-size: 8px;}
-    #reproducir{padding: 5px 5px; font-size: 11px;}
+    .recomendaciones{padding: 10px 20px;}
+    #t-personalizado{padding: 10px 10px; font-size: 8px;}
+    #reproducir{padding: 5px 5px; font-size: 10px;}
     #milista{padding: 5px 5px; font-size: 11px;}
     .grid-peliculas p{font-size: 13px;}
-    .grid-nacionales{font-size: 13px;}
-    .destacados img{display: none;}
+    .grid-nacionales .nacionales{height: 90px;width: 70px;}
+    .grid-nacionales{font-size: 10px;}
+    .imagen_destacados{margin: auto;}
+    .destacados img{width: 130px;}
+    .pelicula p{font-size: 10px;}
+    .tendencias h2 {font-size: 1em;}
+    
+}
+
+@media (max-width: 594px){
+    header{display: none;}
+    .destacados{display: none;}
+    #headermobile{display:inline}
 }
