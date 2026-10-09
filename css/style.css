@@ -75,6 +75,7 @@ body{
 
 .destacados{
     display: flex;
+
     margin: 20px 30px;
     padding: 20px 30px;
     color: white;
@@ -185,4 +186,36 @@ body{
 #subtexto{
     font-size: 11px;
     color: #687385
+}
+@media (max-width:755px){
+    .logo{width: 150px;}
+    .navbar_izq{font-size: 14px;}
+    .destacados{margin: 10px 20px; padding: 10px 20px;}
+    .buscador{gap: 10px;}
+    .buscador a{font-size: 11px;}
+    .continuar_viendo h2{font-size: 1.4em;}
+    .recomendaciones h2{font-size: 1.2em;}
+    .recomendaciones p{font-size: 13px;}
+    #reproducir{padding: 10px 20px;}
+    #milista{padding: 10px 20px;}
+    .grid-peliculas p{font-size: 13px;}
+    .grid-nacionales{font-size: 13px;}
+}
+
+@media (max-width:652px){
+    .logo{width: 150px;}
+    .navbar_izq{font-size: 11px;}
+    .destacados{margin: 10px 10px; padding: 10px 5px;}
+    .buscador{gap: 6px;}
+    .principal .buscador a{ font-size: 10px;}
+    .continuar_viendo h2{font-size: 1.4em;}
+    .recomendaciones h2{font-size: 1em;}
+    .recomendaciones p{font-size: 9px;}
+    .recomendaciones{margin: 10px;}
+    #t-personalizado{padding: 5px 10px; font-size: 8px;}
+    #reproducir{padding: 5px 5px; font-size: 11px;}
+    #milista{padding: 5px 5px; font-size: 11px;}
+    .grid-peliculas p{font-size: 13px;}
+    .grid-nacionales{font-size: 13px;}
+    .destacados img{display: none;}
 }
