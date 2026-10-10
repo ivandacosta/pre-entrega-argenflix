@@ -209,6 +209,10 @@ main{
     border-bottom: 2px outset #74C2ED;
 }
 
+#progreso{
+    margin-left: -17px;
+}
+
 @media (max-width:755px){
     .logo{width: 150px;}
     .navbar_izq{font-size: 14px;}
